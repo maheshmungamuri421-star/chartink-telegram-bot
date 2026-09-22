@@ -36,5 +36,5 @@ def webhook():
     send_telegram(message)
     return {"status": "ok"}, 200
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
