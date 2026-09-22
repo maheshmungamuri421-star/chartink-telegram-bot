@@ -2,7 +2,7 @@ from flask import Flask, request
 import requests
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # ⚠️ ఇక్కడ మీ కొత్త టోకెన్ మరియు Chat ID పెట్టండి
 TELEGRAM_BOT_TOKEN = "8803648646:AAHl1sBv3K-eHlcKMqc4OoDflx7Od6fa7uQ"
