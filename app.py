@@ -5,7 +5,7 @@ import pytz
 import sqlite3
 import os
 
-app = Flask(name)
+app = Flask(__name__)
 
 # ⚠️ ఇక్కడ మీ టెలిగ్రామ్ వివరాలు మార్చండి
 BOT_TOKEN = "8803648646:AAHl1sBv3K-eHlcKMqc4OoDflx7Od6fa7uQ"
