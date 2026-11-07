@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # ⚠️ ఇక్కడ మీ టెలిగ్రామ్ వివరాలు మార్చండి
-BOT_TOKEN = "9098299915:AAG268EpjEf6XbCWFzYRRvFWI-XsT8mwhBI"
+BOT_TOKEN = "9293749369:AAHjk3Gtcpxvq6CgAPhTlb18vxj5yZNA28Q"
 CHAT_ID = "7229600818"
 
 # డేటాబేస్ సెటప్ (అలర్ట్స్ సేవ్ చేసుకోవడానికి)
